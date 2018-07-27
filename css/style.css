@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+header {
+	font-family: 'Slabo 27px', serif;
+	background-color: #000000;
+	height: 15%;
+	vertical-align: center;
+}
+
+header .row {
+	color: #40a0ff;
+}
+
+h1 {
+	width: 100%;
+	text-align: center;
+}
+
+main h3 {
+	color: yellow;
+}
+
+#front img {
+    object-fit: cover;
+    align-self: center;
+    width: 100%;
+}
+
+div.slide-left {
+	font-family: 'Slabo 27px', serif;
+    font-size: 4vw;
+    text-align: center;
+    position: absolute;
+    margin-top: 4vw;
+    margin-left: auto;
+    margin-right: auto;
+    top: 25%;
+    overflow:hidden;
+}
+div.slide-left p {
+    animation: slide-left 5s;
+    width: 100%;
+}
+
+@keyframes slide-left {
+    from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
